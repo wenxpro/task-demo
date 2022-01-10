@@ -1,0 +1,8 @@
+server:
+  port: 9999
+
+task.list:
+  - id: 1
+    cron: "*/2 * * * * *"
+    className: "com.example.demo.timer.task.TestTask"
+
